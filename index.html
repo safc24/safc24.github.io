@@ -99,16 +99,16 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Collaborative navigation is an essential ability for a team of robots to reach the destination without collision. To enable collaborative navigation, two key problems should be addressed, including subteaming and adaptive formation control. 
-          </p>
-          <p>
-            In this paper, we represent a team of robots as a graph. Given the graph representation, we propose a novel hierarchical learning framework that integrates a high-level deep graph cut for team splitting, an intermediate-level graph neural network to coordinate robot teammates and low-level control for individual robot navigation, thus enabling collaborative navigation with subteaming and adaptive formation control. 
-          </p>
-          <p>
-            We conduct extensive experiments to evaluate our approach in both simulation and real-world scenarios. Experimental results show that our approach achieves promising results on collaborative navigation with the capabilities of subteaming and adaptive formation control. 
-          </p>
-          <p>
-            Our work is available at: <a href="https://safc24.github.io">safc24.github.io</a>. The code will be released after the acceptance of the paper. 
+          Collaborative multi-robot navigation is essential for robots to operate as a team in various environments. 
+          During navigation, the robot team often needs to maintain specific formations, such as circular formations to protect human teammates in the center. 
+          However, robots frequently encounter complex scenarios, such as narrow corridors, where rigidly maintaining these formations is not feasible. 
+          Therefore, the robot team must be capable of splitting into smaller subteams and controlling these subteams to navigate while adaptively maintaining their formations.
+          In this paper, we introduce a novel subteaming and adaptive formation control (SAFC) approach for collaborative multi-robot navigation in complex scenarios. 
+          SAFC integrates three levels of robot learning in a unified hierarchical framework, including high-level deep graph cut for team splitting, 
+          intermediate-level graph learning for collaborative navigation of subteams, and low-level policy learning for controlling individual robots to navigate to the goal without collision.
+          Experimental results in both simulations and real-world robots demonstrate that SAFC enables effective subteaming and adaptive formation control, 
+          and achieves promising results in collaborative navigation through complex scenarios. More information is available at:
+          <a href="https://safc24.github.io">safc24.github.io</a>. The code will be released after the acceptance of the paper. 
           </p>
         </div>
         
