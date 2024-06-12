@@ -89,19 +89,6 @@ body {
     border-radius: 10px !important;
 }
 
-.figure-video-container {
-  width: 100%;
-  max-width: 800px; /* Adjust as needed */
-  margin: 0 auto; /* Center the container */
-}
-
-.figure-video-container img,
-.figure-video-container iframe {
-  width: 100%;
-  height: auto; /* Maintain aspect ratio */
-}
-
-
 .publication-video iframe {
   position: absolute;
   top: 0;
